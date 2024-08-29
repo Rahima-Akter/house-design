@@ -2,7 +2,7 @@ tailwind.config = {
     theme: {
         extend: {
             backgroundImage: {
-                'banner-bg': "url('./images/banner.png')",
+                'banner-bg': "url('./images/bg.jpg')",
             },
             colors: {
                 'primary-btn': '#ABEF5F',
