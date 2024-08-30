@@ -7,7 +7,7 @@ tailwind.config = {
             colors: {
                 'primary-btn': '#ABEF5F',
                 'primary-btn2': '#cff2a9',
-                'dark3': '#F3F3F3',
+                'footer-bg': '#1C1C1C',
             },
         }
     }

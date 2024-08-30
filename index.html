@@ -61,8 +61,7 @@
                 </div>
                 <!--  -->
                 <a class="btn hidden md:block text-black font-extrabold bg-primary-btn px-3 py-3 rounded-full ">Book
-                    Consult<i
-                        class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white rounded-full p-1
+                    Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white rounded-full p-1
                          ml-2"></i></a>
                 <!-- hamburger -->
                 <div class="dropdown">
@@ -291,8 +290,8 @@
         </div>
 
         <!-- form section -->
-        <div class="bg-banner-bg mt-10">
-            <div class="py-4">
+        <div class="bg-banner-bg bg-cover mt-10">
+            <div class="pt-4 pb-20">
                 <div class="hero mt-14">
                     <div class="hero-content text-center">
                         <div>
@@ -306,19 +305,39 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <input type="text" class="grow h-16 rounded-full px-6" placeholder="First Name*" />
-                    <input type="text" class="grow h-16 rounded-full px-6" placeholder="Last Name*" />
-                    <input type="number" class="grow h-16 rounded-full px-6" placeholder="Phone Number*" />
-                    <input type="email" class="grow h-16 rounded-full px-6" value="Your Email*" />
+                <div class="w-9/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <input type="text" class="grow h-16 rounded-full px-6 col-span-2 md:col-span-1" placeholder="First Name*" />
+                    <input type="text" class="grow h-16 rounded-full px-6 col-span-2 md:col-span-1" placeholder="Last Name*" />
+                    <input type="number" class="grow h-16 rounded-full px-6 col-span-2 md:col-span-1" placeholder="Phone Number*" />
+                    <input type="email" class="grow h-16 rounded-full px-6 col-span-2 md:col-span-1" value="Your Email*" />
                     <textarea placeholder="Write your message here" class="col-span-2 h-44 rounded-2xl px-6 py-5"></textarea>
-                    <a class="btn hidden md:block text-black font-extrabold bg-primary-btn px-3 py-3 rounded-full col-span-2">Send Mail<i
-                            class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white rounded-full p-1
+                    <a class="btn hidden md:block text-black font-extrabold bg-primary-btn px-3 py-3 rounded-full col-span-2">Send Mail<i class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white rounded-full p-1
                              ml-2"></i></a>
-                </div
+                </div>
             </div>
-        </div>
     </main>
+    <!-- footer -->
+     <div class=" bg-footer-bg text-white">
+        <footer class="footer footer-center rounded p-10 w-11/12 mx-auto">
+            <div class="">
+                <a class="text-2xl font-bold flex items-center"><i
+                        class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2 text-[16px] text-black mr-1">
+                    </i>Rinterio</a>
+                <p class="w-2/3 mt-2 opacity-50">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                    wood, sleek metal accents.</p>
+            </div>
+            <nav class="grid md:grid-flow-col grid-flow-row gap-3 md:gap-14 lg:gap-20 opacity-50">
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">Portfolio</a>
+                <a class="link link-hover">Blogs</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <a class="btn text-black font-extrabold bg-primary-btn px-3 py-1 rounded-full flex items-center-center w-4/6 md:w-40">Book
+                Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white rounded-full p-2"></i></a>
+        </footer>
+     </div>
+    
 
 </body>
 
